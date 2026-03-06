@@ -1,0 +1,31 @@
+{
+  "name": "generic-watchface",
+  "author": "Meep Apps",
+  "version": "1.0.0",
+  "keywords": [
+    "pebble-app"
+  ],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "generic-watchface-preset",
+    "uuid": "118cdd5e-61e5-45e7-8cde-6f6519757884",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite",
+      "emery",
+      "flint",
+      "gabbro"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "resources": {
+      "media": []
+    }
+  }
+}
